@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Bootstrappage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>	
+    				<span class="icon-bar"></span>	
+    				</button>
+
+				<a class="navbar-brand" href="#"><img src="./images/alien.png"></a>
+			</div>
+			<!--close header-->
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--close navbar-->
+
+    <!-- SLIDER -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="./images/mountains.png" alt="Mountains">
+				<div class="carousel-caption">
+					<h1>GET TO KNOW BOOTSTRAP</h1><br>
+					<button type="button" class="btn btn-default">Get Started</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./images/red.png" alt="Mountain">
+			</div>
+
+			<div class="item">
+				<img src="./images/snow.png" alt="Mountain">
+			</div>
+		</div>
+
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+	</div>
+	<!-- close Slider-->
+	
+	<div class="container text-center">
+		<h2>What We're Using</h2>
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./images/html5.png" class="icon">
+				<h4>HTML5</h4>
+			</div>
+		
+		
+			<div class="col-sm-4">
+				<img src="./images/bootstrap.png" class="icon">
+				<h4>Bootstrap</h4>
+			</div>
+		
+		
+			<div class="col-sm-4">
+				<img src="./images/css3.png" class="icon">
+				<h4>CSS3</h4>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6">
+				<p>Proin eget tortor risus. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+				<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+			</div>
+			<div class="col-xs-6">
+				<img src="./images/bootstrap2.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-cm-6 col-md-3 col-lg-3">
+				<h3>Built with Sass</h3>
+				<p>Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat. Donec rutrum congue leo eget malesuada.</p>
+			</div>
+			<div class="col-xs-12 col-md-3 col-sm-6 col-lg-3">
+				<img src="./images/sass.png" class="img-responsive">
+			</div>
+			<div class="col-xs-12 col-md-3 col-sm-6 col-lg-3">
+				<h3>And Less</h3>
+				<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
+			</div>
+			<div class="col-xs-12 col-md-3 col-sm-6  col-lg-3">
+				<img src="./images/less.png" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<h4><a href="#jb" data-toggle="collapse">Care to learn more about Bootstrap?</a></h4>
+		<h5 id="jb" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan ticidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</h5>
+	</div>
+	
+	<footer class="container-fluid text-center">
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>Contact Us</h3><br>
+				<h4>Our adress and contact info here.</h4>
+			</div>
+			<div class="col-sm-4">
+				<h3>Connect</h3><br>
+				<p class="fa fa-facebook fa-2x"></p>
+				<p class="fa fa-twitter fa-2x"></p>
+				<p class="fa fa-google fa-2x"></p>
+				<p class="fa fa-linkedin fa-2x"></p>
+				<p class="fa fa-youtube fa-2x"></p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/bunny.png">
+			</div>
+		</div>
+		
+	</footer>
+
+</body>
+
+</html>
